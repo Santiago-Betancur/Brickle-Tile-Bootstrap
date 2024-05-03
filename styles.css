@@ -90,19 +90,28 @@ small {
   background-color: #28a745;
   border-color: #28a745; /* Bootstrap's success color for consistency */
 }
-
+/* Testimonial Section */
 .testimonials-section {
   padding: 40px 0;
+  background-color: #f8f9fa;
 }
-
-.testimonials-section .carousel {
-  margin-top: 20px;
+.testimonial {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-left: 5px solid #28a745;
 }
-
-.blockquote {
-  font-style: italic;
+.testimonials-text {
+  font-size:1rem;
   color: #555;
 }
+.testimonial-author {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   body {
